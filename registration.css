@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main{
+    /* border: 2px solid red; */
+    
+}
+body{
+    
+    background-image: url("https://hitfigure.com/wp-content/uploads/2012/03/login-background.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+   }
+main {
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    justify-items: center;
+    font-size: 30px;
+    height: 375px;
+    width: 450px;
+    font-weight:lighter;
+    background-color:rgba(255, 255, 255, 0.352);border-radius: 10px;
+    margin-top: 100px;
+    margin-left: 0%;
+    
+}
+/* main:hover{
+    height: 380px;
+    width: 455px;
+} */
+.top{
+    font-size: 15px;
+    
+}
+#but>{
+    size: 20px;
+    background-color: black;
+}
+
+/* nav///////////// */
+nav
+{
+    height:55px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: black;
+    background-color:rgba(41, 45, 73, 0.989);
+    /* position:relative; */
+    bottom: 200px;
+    width: 100%;
+    text-decoration: none;    
+}
+.info{
+    width: 600px;
+    /* border: 2px solid red; */
+    justify-content:space-around;
+    display: flex;
+    position: relative;
+    left: 150px;
+
+    
+}
+#img{
+    mix-blend-mode: color-burn;
+    
+}
+.info>a{
+    text-decoration: none;
+    color: white;
+}
+#input-group{
+    height: 30px;
+    width: 300px;
+    
+}
+#logEmail{
+    height: 30px;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.355);
+    border-radius:10px ;
+    outline: none;
+}
+#Email{
+    height: 30px;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.355);
+    border-radius:10px ;
+    outline: none;
+}
+#Mobile{
+    height: 30px;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.355);
+    border-radius:10px ;
+    outline: none;
+}
+#Password{
+    height: 30px;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.355);
+    border-radius:10px ;
+    outline: none;
+}
+#Confirm-Password{
+    height: 30px;
+    width: 300px;
+    background-color:rgba(255, 255, 255, 0.355);
+    border-radius:10px ;
+    outline: none;
+}
+h2{
+    font-size: 25px;
+}
+small{
+    font-size: 20px;
+    color: white;
+}
+label{
+    font-size: 18px;
+}
+button{
+    height: 30px;
+    width: 120px;
+    font-size: 15px;
+    background-color: rgb(233, 173, 23);
+    color: white;
+    border: none;
+}
+@media screen and (max-width:400px) {
+    
+    main {
+        justify-content: center;
+        color: black;
+        text-decoration: none;
+        justify-items: center;
+        font-size: 10px;
+        height: 375px;
+        width: 450px;
+        font-weight:lighter;
+        background-color:rgba(255, 255, 255, 0.352);border-radius: 10px;
+        margin-top: 100px;
+        margin-left: 0%;
+        
+    }
+    .info{
+        width: 100%;
+        /* border: 2px solid red; */
+        justify-content:space-around;
+        display: flex;
+        position: relative;
+        left: 1px;
+        font-weight: 1px;
+        font-size: 10px;
+        
+    }
+    main {
+        justify-content: center;
+        color: black;
+        text-decoration: none;
+        justify-items: center;
+        font-size: 10px;
+        height: 4
+        00px;
+        width: 300px;
+        font-weight:lighter;
+        background-color:rgba(255, 255, 255, 0.264);
+        margin-top: 20px;
+        border-radius: 5px;
+        
+    }
+   
+    #logEmail{
+        height: 20px;
+        width: 200px;
+        background-color:rgba(255, 255, 255, 0.355);
+        border-radius:10px ;
+        outline: none;
+    }
+    #Email{
+        height: 20px;
+        width: 200px;
+        background-color:rgba(255, 255, 255, 0.355);
+        border-radius:10px ;
+        outline: none;
+    }
+    #Mobile{
+        height: 20px;
+        width: 200px;
+        background-color:rgba(255, 255, 255, 0.355);
+        border-radius:10px ;
+        outline: none;
+    }
+    #Password{
+        height: 20px;
+        width: 200px;
+        background-color:rgba(255, 255, 255, 0.355);
+        border-radius:10px ;
+        outline: none;
+    }
+    #Confirm-Password{
+        height: 20px;
+        width: 200px;
+        background-color:rgba(255, 255, 255, 0.355);
+        border-radius:10px ;
+        outline: none;
+    }
+    h2{
+        font-size: 18px;
+    }
+    small{
+        font-size: 15px;
+        color: white;
+    }
+    #but>{
+        size: 10px;
+        background-color: black;
+    }
+}
+

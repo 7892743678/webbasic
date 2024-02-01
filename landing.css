@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* background-color:grey; */
+}
+
+nav
+{
+    height:55px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:rgb(111, 247, 98);
+    color: black;
+    background-color:rgba(41, 45, 73, 0.989);
+    position:relative;
+
+}
+div>button>a
+{
+    color:black;
+}
+div>button>a:hover
+{
+    color: black;
+    text-shadow: 2px 2px 50px aqua;
+}
+
+.div1
+{
+    position:relative;
+    right: 70px;
+}
+.div4>button
+{
+    border: none;
+    outline: none;
+    background-color:transparent;
+    position: relative;
+    left: 50px;
+    color: aqua;
+
+    /* font-weight: bolder; */
+}
+
+.div5>button{
+    border: none;
+    outline: none;
+    background-color:transparent;
+    position: relative;
+    left: 180px;
+    color: aqua;
+
+    /* font-weight: bolder; */
+
+}
+.div4>a{
+    text-decoration: none;
+    position: relative;
+    left: 300px;
+    color: black;
+    /* font-weight: bolder; */
+
+}
+
+.div3>a{
+    text-decoration: none;
+    position: relative;
+    left: 400px;
+    color: black;
+
+    /* font-weight: bolder; */
+
+}
+
+.div2>a{
+    text-decoration: none;
+    position: relative;
+    left: 500px;
+    color: black;
+
+    /* font-weight: bolder; */
+}
+
+/* a::after
+    {
+        content: "";
+        display: block;
+        height: 4px;
+        width: 0;
+        background-color: orange;
+        transition: all 0.8s;
+        /* background-image:url("https://imgk.timesnownews.com/story/Virat_Kohli_RCB_AP98.jpg"); */
+     */
+
+    /* a:hover::after
+    {
+        width: 100%;
+        color: aqua;
+
+    } */
+
+
+    a:hover
+    {
+        font-weight: bold;
+        /* color: chartreuse; */
+        /* color: red; */
+        color: aqua;
+    text-shadow: 2px 2px 50px aqua;
+        
+
+    }
+
+    footer
+{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-color: rgb(167, 159, 159);
+  font-size: larger;
+  color:black;
+}
+
+a
+{
+  font-size: 15px;
+  text-decoration: none;
+
+}
+a:hover
+{
+  font-size: 25px;
+  text-decoration: none;
+}
+ol>li{
+    list-style: none;
+}
+
+.info{
+    /* border: 2px solid red; */
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    position: relative;
+    left: 175px;
+}
+.info>a{
+    text-decoration: none;
+    color:white;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+.data1{
+    /* border: 2px solid red; */
+    position: relative;
+    left: 200px;
+    color: white;
+    
+     }
+
+     main{
+        position: relative;
+        bottom: 300px;
+        left: 200px;
+        background-color: black;
+        z-index: 0;
+     }
+     #img>img{
+     mix-blend-mode:color-burn;
+     right: 50px;
+     position: relative;
+     right:200px;
+     background-color: white;
+     }
+
+     @media screen and (max-width:400px){
+     .info{
+        width:100%;
+        /* display: flex; */
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        text-decoration: none;
+        position: relative;
+        left: 1px;
+        font-weight: 1px;
+        font-size: 10px;
+        size: 10px;
+        }
+        #img{
+            left:50%;
+            
+            
+        }
+        footer{
+            width: 100%;
+            height: 100%;
+            justify-content:flex-end;
+        }
+        #img>img{
+            /* mix-blend-mode:color-burn;
+            right: 50px;
+            position: relative;
+            right:200px;
+            background-color: white; */
+            width: 100%;
+            }
+        footer{
+            height: 100%;
+            width: 100%;
+        }
+        h1{
+            left: 300px;
+        }
+        #f{
+            width: 100%;
+            height:20px;
+        }
+     }
+
